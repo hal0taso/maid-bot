@@ -18,8 +18,8 @@ api = tweepy.API(auth)
 recent_tweet = api.home_timeline()[0].id
 
 
-sentence = "行ってらっしゃいませ，ご主人様♡"
-sentence = "ｲｸｯﾞ!!!ﾋﾞｸﾝﾋﾞｸﾝ"
+sentence = ""
+sentence = ""
 image_file = "iku.jpg"
 
 def ikuikureply():
